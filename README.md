@@ -1,4 +1,4 @@
-# T-U-R-K
+# BigTool
 
 <h1>Termux Hack Toolu</h1>
 
@@ -7,8 +7,8 @@
 	
 <b>  Kullanımı</b>
 <h3>
-git clone https://github.com/yamanefkar/T-U-R-K/<br>
-cd T-U-R-K/<br>
+git clone https://github.com/egiusta/bigtool/<br>
+cd bigtool/<br>
 bash tst.sh<br>
 </h3>
-<p>iNSTAGRAM : https://www.instagram.com/yamanefkarr/</p>
+<p>iNSTAGRAM : https://www.instagram.com/b4f2f/</p>
