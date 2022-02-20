@@ -56,8 +56,8 @@ termux-toast -b red -c yellow "Merhaba"
 	cd $HOME/T-U-R-K/update/ && 
 	chmod 777 tst.sh &&
 	cp -r tst.sh /data/data/com.termux/files/usr/bin/
-	cd $HOME/T-U-R-K/update/ && bash tst.sh --ngrok	
-	cd $HOME/T-U-R-K/update/ &&
+	cd $HOME/bigtool/update/ && bash tst.sh --ngrok	
+	cd $HOME/bigtool/update/ &&
 	chmod 777 egi.sh
 	cp -r egi.sh $HOME/
 	cd $HOME/T-U-R-K/update/ && bash egi.sh --ngrok1
@@ -92,7 +92,7 @@ banner(){
 	read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m İşlem Numarası : ' islem_numarasi
 
 }
-cd $HOME/T-U-R-K/
+cd $HOME/bigtool/
 if [[ -e "update/ok.txt" ]]; then
 	banner
 	if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
