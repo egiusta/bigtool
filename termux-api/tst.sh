@@ -5,7 +5,7 @@ clear
 
 banner(){
 	echo -e '\e[37m
-	\tCode: eGi\033[31;40;1m
+	\tCode: eGi-rootbarann\033[31;40;1m
 	¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.¸
 	░
 	░\e[31m[\e[37m01\e[31m]\e[37mSpam Call\033[31;40;1m
